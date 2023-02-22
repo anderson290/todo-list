@@ -26,7 +26,7 @@ const HeaderBlueTitle = styled("span", {
     color: "$blue"
 });
 
-export function Header() {
+const Header = () => {
   return (
     <HeaderContainer>
       <HeaderTitleContainer>
@@ -39,3 +39,5 @@ export function Header() {
     </HeaderContainer>
   );
 }
+
+export default Header;
